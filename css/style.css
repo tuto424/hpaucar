@@ -23,17 +23,31 @@ p {
 	color:#8a8d94;
 }
 a {
-    text-decoration:none;
+    text-decoration:none;    
     transition: all 0.1s ease-in-out;
     -moz-transition: all 0.1s ease-in-out;
     -webkit-transition: all 0.1s ease-in-out;
     -o-transition: all 0.1s ease-in-out;
     outline: none;
-	color:#333;
+	color:#000;
 }
+
+
+
 a:hover {
   text-decoration: none;
   color:#36CBD4;	
+}
+
+
+.courses a, .topics a {
+ text-decoration: underline;
+ color:#000;
+  font-weight: 900;
+}
+
+.courses a:hover, .topics a:hover {
+  color:#36CBD4;  
 }
 
 hr {
